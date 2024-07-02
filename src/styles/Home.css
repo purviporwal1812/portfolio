@@ -1,0 +1,35 @@
+* {
+  background-color: #f5f5f5;
+}
+
+.text-end {
+  margin-top: 2%;
+  width: 40%;
+}
+.underline {
+  width: 50%;
+  margin: 0.5rem 0;
+  border: 2px solid #000;
+}
+.text-start {
+  margin-left: 15%;
+  margin-top: 15%;
+}
+.intro-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .underline {
+    width: 50%;
+  }
+  .text-end {
+    margin: 0 0% 0 10%;
+    width: 100%;
+  }
+}
