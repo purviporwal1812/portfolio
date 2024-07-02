@@ -14,7 +14,7 @@ const Projects = () => {
             <p className="card-text font-monospace">
               Integrated technologies to provide real-time location information
               through responsive design and dynamic APIs. Used Leaflet a js
-              library to show location on map.
+              library to show location on the map.
             </p>
             <p id="iconLink" className="d-flex justify-content-center">
               <Link
@@ -36,13 +36,13 @@ const Projects = () => {
           <div className="card-body">
             <h5 className="card-title">Assignment Tracker</h5>
             <p className="card-text font-monospace">
-              Build a assignment tracking system implementing File Handling and
-              Object Oriented Programming , Implemented Object Oriented Design.
+              Build an assignment tracking system implementing File Handling and
+              Object Oriented Programming, Implemented Object Oriented Design.
             </p>
             <p id="iconLink" className="d-flex justify-content-center">
               <Link
                 target="_blank"
-                to="https://github.com/purviporwal1812/IP-Address-"
+                to="https://github.com/purviporwal1812/Oops-project1"
               >
                 <i className="fa-brands fa-2x fa-github me-5"></i>
               </Link>
