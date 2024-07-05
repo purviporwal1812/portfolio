@@ -1,7 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, inView } from "framer-motion";
 import "../styles/Home.css";
+
 import me from "../assets/me.png";
 import Projects from "./Projects";
+import { useEffect, useState } from "react";
 
 const Home = () => {
   return (
@@ -9,16 +11,7 @@ const Home = () => {
       <div className="row">
         <div className="col-md-5 text-start">
           <h1 className="intro-text">Hi There! I am Purvi</h1>
-          <motion.hr
-            initial={{ opacity: 0.5, x: 190 }}
-            animate={{ opacity: 1, x: 10 }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-              repeatType: "reverse",
-            }}
-            className="underline"
-          />
+          <hr className="underline" />
           <p className="font-monospace">
             Exploring the intersection of technology, innovation, and design.
             Let's connect and create opportunities together! 🚀
