@@ -1,11 +1,37 @@
 import { Link } from "react-router-dom";
 import p1 from "../assets/ip.png";
 import p2 from "../assets/pro2.png";
+import p3 from "../assets/p3.png";
 import "../styles/Projects.css";
 
 const Projects = () => {
   return (
     <>
+      <div className="d-flex justify-content-center align-items-center">
+        <div className="card">
+          <img src={p3} className="card-img-top" alt="im" />
+          <div className="card-body">
+            <h5 className="card-title">Where In The World</h5>
+            <p className="card-text font-monospace">
+              This React-based web app uses a countries REST API to provide
+              users with detailed information about countries worldwide. It
+              features responsive design, search and filter functionalities, and
+              detailed country profiles with interactive elements
+            </p>
+            <p id="iconLink" className="d-flex justify-content-center">
+              <Link
+                target="_blank"
+                to="https://github.com/purviporwal1812/where-in-the-world"
+              >
+                <i className="fa-brands fa-2x fa-github me-5"></i>
+              </Link>
+              <Link target="_blank" to="https://wherein-the-world.netlify.app/">
+                <i className="ms-2 fa-solid fa-2x fa-link"></i>
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="d-flex justify-content-center align-items-center">
         <div className="card">
           <img src={p1} className="card-img-top" alt="im" />
