@@ -7,6 +7,27 @@ import "../styles/Projects.css";
 const Projects = () => {
   return (
     <>
+          <div className="d-flex justify-content-center align-items-center">
+        <div className="card">
+          <img src={p3} className="card-img-top" alt="im" />
+          <div className="card-body">
+            <h5 className="card-title">FlashCard Tool</h5>
+            <p className="card-text font-monospace">
+            The Flashcard Tool is a web app for coding revision, built with React, Node.js, Express, and PostgreSQL. Users can view flashcards with coding questions and reveal answers by flipping the card. An internal dashboard allows users to add and manage questions stored in the PostgreSQL database.            </p>
+            <p id="iconLink" className="d-flex justify-content-center">
+              <Link
+                target="_blank"
+                to="https://github.com/purviporwal1812/flashfront"
+              >
+                <i className="fa-brands fa-2x fa-github me-5"></i>
+              </Link>
+              <Link target="_blank" to="https://flashfront-kappa.vercel.app/">
+                <i className="ms-2 fa-solid fa-2x fa-link"></i>
+              </Link>
+            </p>
+          </div>
+        </div>
+      </div>
       <div className="d-flex justify-content-center align-items-center">
         <div className="card">
           <img src={p3} className="card-img-top" alt="im" />
