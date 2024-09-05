@@ -4,6 +4,7 @@ import About from "./components/About.jsx";
 import Navbar from "./components/Navbar.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.jsx";
+import Play from "./components/Play.jsx";
 import Footer from "./components/Footer.jsx";
 const router = createBrowserRouter([
   {
@@ -26,6 +27,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  {
+    path: "/play",
+    element: (
+      <>
+        <Navbar />
+        <Play />
+        <Footer />
+      </>
+    ),
+  }
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

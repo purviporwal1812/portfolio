@@ -1,0 +1,25 @@
+/* Keyframe for the button click animation */
+@keyframes keyboardClick {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 4px #666;
+    }
+    50% {
+      transform: scale(0.9);
+      box-shadow: 0 2px #999;
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 4px #666;
+    }
+  }
+  
+  .keyboard-click {
+    display: inline-block;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .keyboard-click:active {
+    animation: keyboardClick 0.3s ease;
+  }
+  

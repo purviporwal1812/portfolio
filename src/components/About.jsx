@@ -1,10 +1,10 @@
 import AboutImg1 from "../assets/about1.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import "../styles/About.css";
 const About = () => {
   return (
     <>
-      {" "}
       <div className="container-fluid text-center">
         <div className="row">
           <div className="col-sm-6">
@@ -25,6 +25,9 @@ const About = () => {
               Cell. This role has improved my organizational and communication
               skills and also provided me with valuable insights into the
               professional world :)
+              <br>
+              </br>
+              <Link to="/play"> Some other stuff </Link>
               <div id="say">
                 <b>Say hello!</b>
                 <br></br>
