@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import p1 from "../assets/ip.png";
 import p2 from "../assets/pro2.png";
 import p3 from "../assets/p3.png";
+import p4 from "../assets/p4.png";
 import "../styles/Projects.css";
 
 const Projects = () => {
@@ -9,11 +10,11 @@ const Projects = () => {
     <>
           <div className="d-flex justify-content-center align-items-center">
         <div className="card">
-          <img src={p3} className="card-img-top" alt="im" />
+          <img src={p4} className="card-img-top" alt="im" />
           <div className="card-body">
             <h5 className="card-title">FlashCard Tool</h5>
             <p className="card-text font-monospace">
-            The Flashcard Tool is a web app for coding revision, built with React, Node.js, Express, and PostgreSQL. Users can view flashcards with coding questions and reveal answers by flipping the card. An internal dashboard allows users to add and manage questions stored in the PostgreSQL database.            </p>
+            The Flashcard Tool is a web app for coding revision, built with React, Node.js, Express, and MySQL. Users can view flashcards with coding questions and reveal answers by flipping the card. An internal dashboard allows users to add and manage questions stored in the MySQL database.            </p>
             <p id="iconLink" className="d-flex justify-content-center">
               <Link
                 target="_blank"
