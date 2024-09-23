@@ -18,13 +18,7 @@ const About = () => {
           </div>
           <div className="col-sm-6 mt-5">
             <div className="words text-start lh-base font-monospace w-75">
-              I am Purvi Porwal. I am pursuing B.Tech, majoring in Computer
-              Science at Shri G.S Institute of Technology and Science ,
-              maintaining a strong 8.54 CGPA. I have a passion for technology
-              and design. I am actively involved in the Training and Placement
-              Cell. This role has improved my organizational and communication
-              skills and also provided me with valuable insights into the
-              professional world :)
+            Hello! I’m Purvi Porwal, a third-year B.Tech Computer Science student at SGSITS, Indore. I have a strong passion for technology and problem-solving, with experience in developing dynamic web applications using technologies like Next.js, PostgreSQL, and Node.js. My expertise also includes programming languages such as Java and C++, as well as web development tools like HTML, CSS, and JavaScript. I enjoy exploring innovative solutions that enhance user experiences and look forward to furthering my career at the intersection of technology and creativity :)
               <br>
               </br>
               <Link to="/play"> Some other stuff </Link>
