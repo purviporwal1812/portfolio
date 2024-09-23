@@ -13,8 +13,8 @@ const Home = () => {
           <h1 className="intro-text">Hi There! I am Purvi</h1>
           <hr className="underline" />
           <p className="font-monospace">
-            Exploring the intersection of technology, innovation, and design.
-            Let's connect and create opportunities together! 🚀
+          A passionate and aspiring Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Express.js/ MySql and some other cool libraries and frameworks.
+          <br></br>Let's connect and create opportunities together! 🚀
           </p>
         </div>
         <div className="col-md-3 text-end">
