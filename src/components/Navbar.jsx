@@ -63,7 +63,7 @@ const Navbar = () => {
                     </NavLink>
                   </li>
                   <li className="nav-item me-5">
-                    <NavLink
+                    {/* <NavLink
                       className={(e) => {
                         return e.isActive ? "nav-link active keyboard-click" : "nav-link keyboard-click";
                       }}
@@ -71,7 +71,7 @@ const Navbar = () => {
                       to="/play"
                     >
                         <span className="fs-4">✧₊⁺</span>
-                    </NavLink>
+                    </NavLink> */}
                   </li>
                 </ul>
               </div>
