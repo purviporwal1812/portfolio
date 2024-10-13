@@ -15,7 +15,8 @@ const Projects = () => {
           <div className="card-body">
             <h5 className="card-title">Attendance Tracker</h5>
             <p className="card-text font-monospace">
-            The Attendance Tracker is a web-based application built using React for the frontend and Node.js with Express for the backend, ensuring a smooth, dynamic user experience. PostgreSQL serves as the robust database management system, securely storing user and attendance data. It leverages facial recognition for user authentication, geolocation verification for ensuring users' physical presence, and time-based rate limiting to prevent misuse. This combination of technologies provides a reliable, fast, and secure platform for managing attendance at university.       </p>
+            The Attendance Tracker is a web-based application built using React for the frontend and Node.js with Express for the backend, ensuring a smooth, dynamic user experience. PostgreSQL serves as the robust database management system, securely storing user and attendance data. It leverages facial recognition for user authentication, geolocation verification for ensuring users' physical presence, and time-based rate limiting to prevent misuse. This combination of technologies provides a reliable, fast, and secure platform for managing attendance at university. <a target="_blank" href="https://docs.google.com/document/d/1W7uhwHs-bSp9PkWNNkKMvJZUfanKoZzfleh-B2t4_zw/edit?usp=sharing">software requirement specifications</a>
+               </p>
             <p id="iconLink" className="d-flex justify-content-center">
               <Link
                 target="_blank"
