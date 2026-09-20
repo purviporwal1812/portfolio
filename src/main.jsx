@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import Play from "./components/Play.jsx";
 import Footer from "./components/Footer.jsx";
+import Blogs from "./components/Blogs.jsx";
+import Bookshelf from "./components/Bookshelf.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +25,26 @@ const router = createBrowserRouter([
       <>
         <Navbar />
         <About />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/blogs",
+    element: (
+      <>
+        <Navbar />
+        <Blogs />
+        <Footer />
+      </>
+    ),
+  },
+  {
+    path: "/bookshelf",
+    element: (
+      <>
+        <Navbar />
+        <Bookshelf />
         <Footer />
       </>
     ),

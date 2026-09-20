@@ -1,0 +1,104 @@
+.blog-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.blog-year-heading {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--text-color, #1a1a1a);
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 2.5rem 0 0;
+}
+
+.blog-year-heading:first-child {
+  margin-top: 0;
+}
+
+.blog-year-heading .count {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--muted-color, #9a9a9a);
+}
+
+.blog-year-divider {
+  border: none;
+  border-top: 1px solid var(--border-color, #e3e0d8);
+  margin: 0.75rem 0 0.5rem;
+}
+
+.blog-row-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-row {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1rem 0.75rem;
+  border-radius: 6px;
+}
+
+.blog-row:nth-child(even) {
+  background: var(--row-alt-bg, #eeece6);
+}
+
+.blog-date {
+  color: var(--muted-color, #b08a5a);
+  font-size: 0.95rem;
+  white-space: nowrap;
+  padding-top: 0.15rem;
+}
+
+.blog-title-link {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text-color, #1a1a1a);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.blog-title-link:hover {
+  text-decoration: underline;
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.blog-tag {
+  font-size: 0.78rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: var(--tag-bg, #dfe6f0);
+  color: var(--tag-color, #3b5a7a);
+  white-space: nowrap;
+}
+
+.blog-tag.category {
+  background: var(--tag-category-bg, #d7dde6);
+  color: var(--tag-category-color, #2f3b4c);
+  font-weight: 600;
+}
+
+.blog-tag.hashtag {
+  background: var(--tag-hashtag-bg, #eef1f5);
+  color: var(--tag-hashtag-color, #5b6b7d);
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.list-page-empty {
+  color: var(--muted-color, #8a8a8a);
+  font-style: italic;
+}

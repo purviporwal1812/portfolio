@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import '../styles/Navbar.css'; // Import your CSS file
+import '../styles/Navbar.css'; 
 
 const Navbar = () => {
   return (
@@ -48,6 +48,28 @@ const Navbar = () => {
                       to="/about"
                     >
                       About.
+                    </NavLink>
+                  </li>
+                  <li className="nav-item me-5">
+                    <NavLink
+                      className={(e) => {
+                        return e.isActive ? "nav-link active keyboard-click" : "nav-link keyboard-click";
+                      }}
+                      aria-current="page"
+                      to="/blogs"
+                    >
+                      Blogs.
+                    </NavLink>
+                  </li>
+                  <li className="nav-item me-5">
+                    <NavLink
+                      className={(e) => {
+                        return e.isActive ? "nav-link active keyboard-click" : "nav-link keyboard-click";
+                      }}
+                      aria-current="page"
+                      to="/bookshelf"
+                    >
+                      Bookshelf.
                     </NavLink>
                   </li>
                   <li className="nav-item me-5">

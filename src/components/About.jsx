@@ -33,39 +33,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="row row-cols-sm-3 row-cols-1 mx-0 px-5" id="part2">
-        <div className="col" id="edu">
-          <h3>
-            <strong>
-              Shri G.S Institute of Technology and Science, Indore
-            </strong>
-          </h3>
-          <p>Bachelor of Technology in Computer Science</p>
-          <p>
-            <em>Nov 2022 - July 2026</em>
-          </p>
-        </div>
-        <div className="col" id="edu">
-          <h3>
-            <strong>Sita Devi Higher Secondary School</strong>
-          </h3>
-          <p>12th ,Madhya Pradesh Board of Secondary Education</p>
-          <p>
-            <em>July 2021 - July 2022</em>
-          </p>
-        </div>
-        <div className="col" id="edu">
-          <h3>
-            <strong>
-              Shri Cloth Market Vaishnav Bal Mandir Girls H S School
-            </strong>
-          </h3>
-          <p>10th, Central Board of Secondary Education</p>
-          <p>
-            <em>July 2014 - Jun 2021</em>
-          </p>
-        </div>
-      </div>
+   
     </>
   );
 };
